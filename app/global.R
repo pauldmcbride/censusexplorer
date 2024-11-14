@@ -15,6 +15,7 @@ sa2 <- read_rds("data/sa2_out.rds") %>%
 ignore = c(
   "population",
   "TALB2023_1",
+  "TALB2023_2",
   "TALB2023_1_copy",
   "area",
   "geometry",
