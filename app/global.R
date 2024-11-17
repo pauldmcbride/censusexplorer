@@ -27,8 +27,10 @@ var_list <- c(
 )
 
 base_leaflet_options <- leafletOptions(zoomControl = FALSE,
-                                       minZoom = 6,
-                                       maxZoom = 15)
+                                       minZoom = 5.5,
+                                       maxZoom = 15,
+                                       zoomSnap = 0.5,
+                                       zoomDelta = 1)
 base_leaflet_highlight <- highlightOptions(stroke = TRUE,
                                            color = "#822218",
                                            opacity = 0.9,
@@ -36,3 +38,4 @@ base_leaflet_highlight <- highlightOptions(stroke = TRUE,
                                            bringToFront = FALSE,
                                            sendToBack = TRUE)
 
+main_opacity = 0.55
